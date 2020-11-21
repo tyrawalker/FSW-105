@@ -1,14 +1,22 @@
-
-var shopper = {
-    FirstName: "Peter",
-    LastName: "Piper",
-    "age": 20, 
-    Address:"Nursery Rhymes",
-    diplayingInfo:function(){
-        console.log(`${shopper.FirstName} ${shopper.LastName} from the` + this.Address);
+var Shopper = {
+    firstName: "Peter", 
+    lastName: "Piper", 
+    "age":20, 
+    location: "Nursery Rhymes", 
+    displayInfo:function() {
+        console.log(`${Shopper.firstName} ${Shopper.lastName} from the ${Shopper.location} picked  ${Cart.quantity} of ${this.favFood} of ${Cart.items}`)
     }
-    
-    
-},Action = {
-    Picked: ["Peck", "of", "Pickled", "Peppers"], 
-} 
+}
+ var Cart = {
+     quantity == (a peck),
+     items:["pickled", "peppers"],
+     peck:
+ }
+ Shopper.displayInfo()
+ 
+
+
+
+
+
+ 
