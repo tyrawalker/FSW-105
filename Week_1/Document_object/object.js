@@ -8,10 +8,10 @@ var Shopper = {
     }
 }
  var Cart = {
-     quantity == (a peck),
+     quantity: "a peck",
      items:["pickled", "peppers"],
-     peck:
- }
+      }
+
  Shopper.displayInfo()
  
 
