@@ -27,7 +27,6 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
     pronoun:"she",
 }
 ]
-
 switch (peopleWhoWantToSeeMadMaxFuryRoad.gender) {
     case "female":
         alert ("she")
@@ -40,22 +39,19 @@ switch (peopleWhoWantToSeeMadMaxFuryRoad.gender) {
 function isOldEnough() {
     for (i=0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
         if (peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18){
-            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough " + peopleWhoWantToSeeMadMaxFuryRoad[i].pronoun+ " is good to see Mad Max Fury Road" );}
+            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough " + peopleWhoWantToSeeMadMaxFuryRoad[i].pronoun 
+            + " is good to see Mad Max Fury Road" );}
             
           
          else if (peopleWhoWantToSeeMadMaxFuryRoad[i].age <18){
-            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is NOT old enough " + peopleWhoWantToSeeMadMaxFuryRoad[i].pronoun + " is NOT good, dont let them in" );
+            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is NOT old enough " + peopleWhoWantToSeeMadMaxFuryRoad[i].pronoun 
+            + " is NOT good, dont let them in" );
          }
         
     }
    
   
 }
-
-
-
 console.log (); isOldEnough ();  
-
-
 
 
