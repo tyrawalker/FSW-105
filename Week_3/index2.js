@@ -15,5 +15,5 @@ function incrementString (str){
      console.log (str.length <= 20 ? str + str : str.length/2)
      
 }
-
-incrementString ("abcdefg")
+ 
+incrementString ("abcdef")
