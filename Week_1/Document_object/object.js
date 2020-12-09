@@ -1,18 +1,22 @@
 var Shopper = {
     firstName: "Peter", 
     lastName: "Piper", 
-    "age":20, 
-    location: "Nursery Rhymes", 
+    fullName: function () {
+       return this.firstName + this.lastName;
+    },
+    age:20, 
+    valueOf( bannana = bannana){
+        bannana = bannana
+    },
+    location: " the nursery rhymes", 
+    cart: ["milk", "eggs", "bread", "chicken"],
     displayInfo:function() {
-        console.log(`${Shopper.firstName} ${Shopper.lastName} from the ${Shopper.location} picked  ${Cart.quantity} of ${this.favFood} of ${Cart.items}`)
+        console.log(`${this.firstName} ${this.lastName} from the ${this.location} went to the store to get ${this.cart}`)
     }
 }
- var Cart = {
-     quantity: "a peck",
-     items:["pickled", "peppers"],
-      }
+ 
 
- Shopper.displayInfo()
+Shopper.displayInfo()
  
 
 
