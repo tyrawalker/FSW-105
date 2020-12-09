@@ -17,8 +17,8 @@ function isEvenOrOdd(num) {
 isEvenOrOdd (3)
 
 function incrementString (str){ 
-     console.log (str.length <= 20 ? str + str : str.length/2)
+     console.log (str.length <= 20 ? str + str : str.slice(0, str.length/2))
      
 }
  
-incrementString ("abcdef")
+incrementString ("abcdeoiwjgaeoiegjoigjoijoaijf")
