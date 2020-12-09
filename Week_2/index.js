@@ -49,4 +49,14 @@ for (i=0; i < oldEnough.length; i++){
     
 }
 
+if (1 === 1){
+    console.log ("strict")
+}
 
+if ( 1 == "1"){
+    console.log ("loose")
+}
+
+if (1<=2 && 2 == 4){
+    console.log ("yes")
+}
