@@ -55,10 +55,8 @@ function canGo () {
         }
     }
 }
-function allTogetherNow (){ 
-    console.log ( isOldEnough + gender+ canGo);}; 
 
 
-console.log (); 
-allTogetherNow ();
+
+
 
