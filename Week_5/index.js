@@ -1,7 +1,7 @@
+//resubmitted for mastery
 var fruits = ["banana", "apple", "orange", "watermelon"]; 
 var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
 
-//template set up for next week, im nearly caught up and will use the next two weeks off to complete everything i can and resubmit all assignments not a 100%
  function arrExercise () {
      vegetables.pop (); 
      //console.log (vegetables);
@@ -21,12 +21,8 @@ var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
     foods.reverse ()
     //console.log (foods);
      var string = foods.toString ();
-     console.log (string);
-
-        
-     
+     console.log (string);   
  }
-
  arrExercise();  
 
 //1. Remove the last item from the vegetable array.//
