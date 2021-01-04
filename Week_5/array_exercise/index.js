@@ -21,16 +21,6 @@ function onlyEvens (arr) {
 }
 onlyEvens([3, 6, 8, 2])
 
-//Extra Credit) Make a filtered list of all the people who are old enough to see The Matrix (17+).
-//function isOldEnough (arr) {}
-//console.log (isOldEnough,([
-//    {name: "Angelina Jolie", age: 80}, 
-//    {name: "Eric Jones", age: 2}, 
-//    {name: "Paris Hilton", age: 5}, 
-//    {name: "Kanye West", age: 16},
-//   {name: "Bob Ziroll", age: 100} 
-//]) )
-
 //section B
 //1) Make an array of numbers that are doubles of the first array
 function doubleUp (arr) {
@@ -58,27 +48,6 @@ function capitalizeNames (arr) {
 console.log (result4);    
 }
 capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"]);
-
-
-//Extra Credit 1) Make an array of strings of the names
-//function arrayNames (arr) {}
-//console.log (arrayNames, ([
-//    {name: "Angelina Jolie", age: 80}, 
-//    {name: "Eric Jones", age: 2}, 
- //   {name: "Paris Hilton", age: 5}, 
-//    {name: "Kanye West", age: 16},
-//    {name: "Bob Ziroll", age: 100} 
-//]) )
-
-//Extra Credit 2) Make an array of strings of the names saying whether or not they can go to The Matrix
-//function canGoToTheMovie (arr) {}
-//console.log (canGoToTheMovie, ([
-//    {name: "Angelina Jolie", age: 80}, 
-//    {name: "Eric Jones", age: 2}, 
-//    {name: "Paris Hilton", age: 5}, 
-//    {name: "Kanye West", age: 16},
- //   {name: "Bob Ziroll", age: 100} 
-//]) )
 
 //section C
 //1) Turn an array of numbers into a total of all the numbers
@@ -123,21 +92,7 @@ whoVoted([
     {name:"Jeff", age:30 , voted: true},
     {name:"Zack", age:19 , voted:false}, 
 ])
-
-//Extra Credit 1) Given an array of all your wishlist items, return the total cost of all items
-//function totalCost (arr){}
-//console.log (totalCost, ([
- //   {title: "Tesla Model s" , price: 90000}, 
-   // {title:"4 carat diamond ring", price:45000}, 
-  //  {title:"fancy hacky sack" , price: 5}, 
-  //  {title:"gold fidget spinner" , price:2000}, 
-  //  {title: "a second tesla model s", price:90000}, 
-//]))
-
-//Extra Credit 2) Given an array of arrays, flatten them into a single array
-//function flatten (arr) {}
-//console.log (flatten, )
-
+S
 //section D
 //1) Sort an array from smallest number to largest
 function smallToLarge(arr){
@@ -169,9 +124,7 @@ shortToLong (["dog", "wolf", "by", "family", "eaten"])
 
 //Extra Credit) Sort an array alphabetically
 function alphabetical (arr){
-    const restult11 = arr.sort (function (a,b){
-        return a-b
-    })
+    const restult11 = arr.sort ()
     console.log (restult11)
 }
 alphabetical(["dog", "wolf", "by", "family", "eaten"])
